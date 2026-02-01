@@ -13,6 +13,7 @@ import {
   Cpu,
   Database
 } from 'lucide-react'
+import DeployStatus from './components/DeployStatus'
 import './App.css'
 
 // 模拟数据
@@ -322,6 +323,9 @@ function App() {
           </div>
         </div>
       </footer>
+      
+      {/* 部署状态组件 */}
+      <DeployStatus />
     </div>
   )
 }
